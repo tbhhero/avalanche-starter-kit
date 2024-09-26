@@ -49,7 +49,7 @@ avalanche blockchain create myblockchain
 Now let's spin up the local Avalanche network and deploy our L1. This will also deploy the Teleporter messenger and the registry on our L1 and the C-Chain.
 
 ```bash
-avalanche blockchain deploy myblockchain
+avalanche blockchain deploy tbhhero
 ```
 
 Make sure to add the RPC Url to the `foundry.toml` file if you have chosen a different name than `myblockchain`. If you've used `myblockchain` the rpc is already configured.
